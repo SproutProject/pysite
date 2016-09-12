@@ -1,0 +1,15 @@
+*.swp
+
+*.o
+*.so
+
+*.py[cod]
+__pycache__/
+
+*.css
+
+config.py
+
+ENV/
+
+front/
