@@ -25,3 +25,6 @@ def init():
                 password=Config.DB_PASSWD))
 
     Base.metadata.create_all(db_engine)
+
+    s = Student(mail=10)
+    print(s.__table__.insert())
